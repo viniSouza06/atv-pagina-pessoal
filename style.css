@@ -1,0 +1,147 @@
+* {
+    font-family: "Jost", sans-serif;
+}
+
+.nome {
+    color: rgb(75, 0, 150);
+}
+
+h1 {
+    margin: 0;
+}
+
+.espaco {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 22px;
+}
+.espaco-inferior {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    font-size: 30px;
+}
+
+.espaco-biografia {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.texto {
+    color: rgb(88, 88, 90);
+    width: 69%;
+    font-size: 25px;
+}
+
+.imagem {
+    width: 170px;
+    height: 235px;
+    border-radius: 34px;
+    border: color rgb(75, 0, 150) solid;
+    size: 2;
+}
+
+.informacao-nome {
+    text-align: center;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:  10px;
+}
+
+.developer {
+    color: rgb(88, 88, 90);
+    background-color: black;
+    width: 300px;
+    border-radius: 30px;
+    text-align: center;
+    border: solid rgb(88, 88, 90);
+
+}
+
+.quebraLinha {
+    size: 2;
+    width: 69%;
+    border-color: rgb(75, 0, 150);
+    margin-bottom: 20px;
+}
+
+.biografia {
+    color: rgb(88, 88, 90);
+    background-color: black;
+    width: 300px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.quebraLinha2 {
+    size: 2;
+    width: 69%;
+    border-color: rgb(75, 0, 150);
+    margin-bottom: 40px;
+}
+.skill-formacoes{
+    width: 300px;
+    background-color: black;
+    transition: 0.1s;
+    
+
+    & h2{
+        text-align: center;
+    }
+    & li{
+        font-size: 20px;
+        color: rgb(88, 88, 90);
+    }
+    & td,th{
+        color: rgb(88, 88, 90);
+        padding: 8px;
+        font-size: 20px;
+    }
+}
+.skill-formacoes:hover{
+    width: 300px;
+    background-color: black;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    
+    
+
+    & h2{
+        text-align: center;
+        color: rgb(75, 0, 150);
+    }
+    & li{
+        font-size: 20px;
+        color: rgb(75, 0, 150);
+    }
+    & td,th{
+        color: rgb(75, 0, 150);
+        padding: 8px;
+        font-size: 20px;
+    }
+}
+.texto-cinza{
+    color: rgb(88, 88, 90);
+
+}
+.icon{
+    i{color: rgb(88, 88, 90);}
+    transition-duration: 0.1s;
+}
+.icon:hover{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    i{color: rgb(75, 0, 150);}
+}
+.final{
+    width: 100%;
+    border-top: 1px solid rgb(88, 88, 90);
+    padding: 32px 10px;
+    box-sizing: border-box;
+}
